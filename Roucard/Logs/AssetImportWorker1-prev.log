@@ -1,0 +1,584 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.4f1 (cb45f9cae8b7) revision 13321721'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ru' Physical Memory: 24407 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity Hub\2021.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/UnityWithFriend/Roucard
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+58189
+Successfully changed project path to: E:/UnityWithFriend/Roucard
+E:/UnityWithFriend/Roucard
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 179.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
+[Subsystems] Discovering subsystems at path E:/Unity Hub/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/UnityWithFriend/Roucard/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.3713
+Initialize mono
+Mono path[0] = 'E:/Unity Hub/2021.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity Hub/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity Hub/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity Hub/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/Unity Hub/2021.3.4f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: E:/Unity Hub/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005538 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 188.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.269 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1270ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (934ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (230ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (561ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (111ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (189ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012897 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UnityWithFriend\Roucard\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\UnityWithFriend\Roucard\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 198.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.380 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2382ms)
+		BeginReloadAssembly (331ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (152ms)
+		EndReloadAssembly (1832ms)
+			LoadAssemblies (156ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (487ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (115ms)
+			SetupLoadedEditorAssemblies (989ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (198ms)
+				BeforeProcessingInitializeOnLoad (178ms)
+				ProcessInitializeOnLoadAttributes (497ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (222.4 KB). Loaded Objects now: 4507.
+Memory consumption went from 150.8 MB to 150.6 MB.
+Total: 5.612400 ms (FindLiveObjects: 0.437700 ms CreateObjectMapping: 0.709500 ms MarkObjects: 4.252600 ms  DeleteObjects: 0.210700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 796.872129 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_air_attack_0063.png
+  artifactKey: Guid(4b7aa7bad07be624c8132597de0bbc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_air_attack_0063.png using Guid(4b7aa7bad07be624c8132597de0bbc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05157b31ff57352ea2588a4bd0393b9') in 0.216657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_slide_0030.png
+  artifactKey: Guid(bfd8e30e34e661b448b546e3b00bfc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_slide_0030.png using Guid(bfd8e30e34e661b448b546e3b00bfc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29acc86a1033164b13c77baba0d0792a') in 0.060561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_slide_0028.png
+  artifactKey: Guid(a14ddecaeefc2d34087bd47abc01419b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_slide_0028.png using Guid(a14ddecaeefc2d34087bd47abc01419b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a9fa81fe48961c3ed89c5c98020e18') in 0.053787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_slide_0029.png
+  artifactKey: Guid(754bf83c7bbc0f548a54ea6d83ee489a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_slide_0029.png using Guid(754bf83c7bbc0f548a54ea6d83ee489a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6bccbf4eda0ec7e0f434d2c64186bf') in 0.053664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_run_0023.png
+  artifactKey: Guid(6c7e156ff583214459dbfc009f517b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_run_0023.png using Guid(6c7e156ff583214459dbfc009f517b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324990da6b0d17b8215ae66803e1f2b0') in 0.059306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_dash_0038.png
+  artifactKey: Guid(9c9777b470f63994594207aa90a480f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_dash_0038.png using Guid(9c9777b470f63994594207aa90a480f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c55a76101ed4746db76068e97b0d6c') in 0.055820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_shot_0064.png
+  artifactKey: Guid(f04ad607e885ed7488398f9eca6dc8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_shot_0064.png using Guid(f04ad607e885ed7488398f9eca6dc8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da946dcc8016bcfce9435eaba8a4df7d') in 0.059338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_Idle_0003.png
+  artifactKey: Guid(3945c93533e132b43bd4098b710bd92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_Idle_0003.png using Guid(3945c93533e132b43bd4098b710bd92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963c40d848420290898b90996430f0fc') in 0.060924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_climb_0041.png
+  artifactKey: Guid(df360788747f95948bac09f0be844e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_climb_0041.png using Guid(df360788747f95948bac09f0be844e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffa4adc6449bc7deb78a7bebd028a2d') in 0.056158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_slide_0025.png
+  artifactKey: Guid(adea7b5756f8e8b4a9c2872b519306f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_slide_0025.png using Guid(adea7b5756f8e8b4a9c2872b519306f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b197fd473e1de8d3e859c819a813df') in 0.057787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_walk_0013.png
+  artifactKey: Guid(1509f5219b270ec40ba46002eba2e347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_walk_0013.png using Guid(1509f5219b270ec40ba46002eba2e347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc65580c13639d4cb7beb6270e4273c') in 0.061898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_wallslide0066.png
+  artifactKey: Guid(e22f122ab632ed54bbc418a6fd2093b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_wallslide0066.png using Guid(e22f122ab632ed54bbc418a6fd2093b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4aa909d098ddc1e7fbbce2913cab26') in 0.054051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_slide_0031.png
+  artifactKey: Guid(75ec232a74579914784eed2f73c6fe64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_slide_0031.png using Guid(75ec232a74579914784eed2f73c6fe64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e53a9994a879096d4cabd12d8e1deab') in 0.055447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_climb_0040.png
+  artifactKey: Guid(84f6b1758636a874c929ac28cb1bb44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_climb_0040.png using Guid(84f6b1758636a874c929ac28cb1bb44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e50768eb9fdd00ffcc64fe353603fd6') in 0.056363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_death_0053.png
+  artifactKey: Guid(2ad5ff575e74f434dbdc0f6bd7920f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_death_0053.png using Guid(2ad5ff575e74f434dbdc0f6bd7920f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b573435cb25013d94724e1f218eebde8') in 0.061985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_walk_0009.png
+  artifactKey: Guid(39100cb18eabe9e46867d59766920171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_walk_0009.png using Guid(39100cb18eabe9e46867d59766920171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b7b659fede8363de24c96e7f90dba9') in 0.059099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_jump_0044.png
+  artifactKey: Guid(50978e5bc41884b40a1f80f6e2a29904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_jump_0044.png using Guid(50978e5bc41884b40a1f80f6e2a29904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95d3ef85a1ccec11b4b55297bcfe363') in 0.056587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_slide_0027.png
+  artifactKey: Guid(320d726e6f4bb2c4ea17d95538a4c430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_slide_0027.png using Guid(320d726e6f4bb2c4ea17d95538a4c430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b656ce36df92bcd4c87ad86de9926e8') in 0.059630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_run_0021.png
+  artifactKey: Guid(3d4097788cf915144a37bfd86d9e649c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_run_0021.png using Guid(3d4097788cf915144a37bfd86d9e649c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b39b7d9f8cdadb465d02157b64c983c') in 0.052421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_hit_0050.png
+  artifactKey: Guid(cf42c71016412bf4aae9897c743ad35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_hit_0050.png using Guid(cf42c71016412bf4aae9897c743ad35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b2f5e18fd09725dd37234478d4bcb2') in 0.058214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_hit_0049.png
+  artifactKey: Guid(335892e244085bd479582880ddd777fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_hit_0049.png using Guid(335892e244085bd479582880ddd777fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0cadd218f5ac7b98393ec13c63be514') in 0.060286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_death_0061.png
+  artifactKey: Guid(f352b104e4b13934ba069ce8dca4ef2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_death_0061.png using Guid(f352b104e4b13934ba069ce8dca4ef2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31daa42beb9990b7a0e11294f28436c') in 0.046925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_climb_0039.png
+  artifactKey: Guid(23dd87bdcafcae5459b6491440d94414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_climb_0039.png using Guid(23dd87bdcafcae5459b6491440d94414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa9272757284a45d0c60121f34294db') in 0.055907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_run_0017.png
+  artifactKey: Guid(8ce069d0e4d77fc46b32303efe5e9f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_run_0017.png using Guid(8ce069d0e4d77fc46b32303efe5e9f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7061b3e36f17f6426f5f501418d86398') in 0.056894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_run_0020.png
+  artifactKey: Guid(6693cfac1a584bc448beac58d4beb708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_run_0020.png using Guid(6693cfac1a584bc448beac58d4beb708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6840a2ae2f9e56075f5f42c9eaa8ae') in 0.059914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_death_0057.png
+  artifactKey: Guid(490febe84778f334a955ef2b4bf1bf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_death_0057.png using Guid(490febe84778f334a955ef2b4bf1bf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5bce584e94cadc49c6f1720423c7ec') in 0.065886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_Idle_0001.png
+  artifactKey: Guid(90eb28b718e2212458188b94a3f8ee2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_Idle_0001.png using Guid(90eb28b718e2212458188b94a3f8ee2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1033aaa9e9b5152256d8bfa338ce3162') in 0.066397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_jump_0045.png
+  artifactKey: Guid(e0c2390d18db2744a991d8fab6a450be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_jump_0045.png using Guid(e0c2390d18db2744a991d8fab6a450be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd180a93be230374f7a8014d4ae02217e') in 0.052255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_walk_0014.png
+  artifactKey: Guid(2ca5cc7384b34ba4786e709644289139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_walk_0014.png using Guid(2ca5cc7384b34ba4786e709644289139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c63571e974c63fdc8f06ce8c253de219') in 0.053477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_death_0054.png
+  artifactKey: Guid(404734f50a8bdbd4282b3b0df009853a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_death_0054.png using Guid(404734f50a8bdbd4282b3b0df009853a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31252d7ed790e7ff1624f9d5168c9aa3') in 0.056643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_dash_0036.png
+  artifactKey: Guid(239fc51201a825346bded8ed9523a2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_dash_0036.png using Guid(239fc51201a825346bded8ed9523a2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a91931a23da2df9cdc2d58144c8f71') in 0.058325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_death_0060.png
+  artifactKey: Guid(870bbd74f3b5a204895faa35b882604a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_death_0060.png using Guid(870bbd74f3b5a204895faa35b882604a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f779d6e79c5b4351ee6d8297d0edae') in 0.055035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_Idle_0007.png
+  artifactKey: Guid(29f42bb67ce2f694d9fbd80c673a9ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_Idle_0007.png using Guid(29f42bb67ce2f694d9fbd80c673a9ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8e7ba0fe9254bda9aba9105ad4ad72') in 0.056591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_run_0019.png
+  artifactKey: Guid(acbfe72b5e86d1e418901d62913f8e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sstick_Figure/Stick Figure Character Sprites 2D/Pistol sprites/pistol_run_0019.png using Guid(acbfe72b5e86d1e418901d62913f8e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e93619e1cfbaadefc26f7a258fa69b') in 0.052797 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010098 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UnityWithFriend\Roucard\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\UnityWithFriend\Roucard\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.137 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2138ms)
+		BeginReloadAssembly (239ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1699ms)
+			LoadAssemblies (188ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (543ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (107ms)
+			SetupLoadedEditorAssemblies (754ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (66ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (455ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (189.7 KB). Loaded Objects now: 4516.
+Memory consumption went from 155.2 MB to 155.0 MB.
+Total: 6.727500 ms (FindLiveObjects: 0.609400 ms CreateObjectMapping: 0.667400 ms MarkObjects: 5.194500 ms  DeleteObjects: 0.253700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008822 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UnityWithFriend\Roucard\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\UnityWithFriend\Roucard\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.259 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2260ms)
+		BeginReloadAssembly (265ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (1783ms)
+			LoadAssemblies (206ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (617ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (752ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (70ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (161ms)
+				ProcessInitializeOnLoadAttributes (446ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (189.8 KB). Loaded Objects now: 4519.
+Memory consumption went from 155.2 MB to 155.0 MB.
+Total: 4.581800 ms (FindLiveObjects: 0.403400 ms CreateObjectMapping: 0.341500 ms MarkObjects: 3.646600 ms  DeleteObjects: 0.188900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 14.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (188.1 KB). Loaded Objects now: 4519.
+Memory consumption went from 74.8 MB to 74.6 MB.
+Total: 6.473600 ms (FindLiveObjects: 0.575700 ms CreateObjectMapping: 0.528900 ms MarkObjects: 5.129100 ms  DeleteObjects: 0.237800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 15.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (187.1 KB). Loaded Objects now: 4519.
+Memory consumption went from 74.8 MB to 74.6 MB.
+Total: 10.332900 ms (FindLiveObjects: 0.398100 ms CreateObjectMapping: 0.476000 ms MarkObjects: 9.187300 ms  DeleteObjects: 0.269700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008539 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UnityWithFriend\Roucard\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\UnityWithFriend\Roucard\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.989 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1990ms)
+		BeginReloadAssembly (393ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (145ms)
+		EndReloadAssembly (1395ms)
+			LoadAssemblies (238ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (472ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (606ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (58ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (340ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (189.7 KB). Loaded Objects now: 4522.
+Memory consumption went from 155.2 MB to 155.0 MB.
+Total: 4.483100 ms (FindLiveObjects: 0.392900 ms CreateObjectMapping: 0.293200 ms MarkObjects: 3.611900 ms  DeleteObjects: 0.183400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=10054 error=Удаленный хост принудительно разорвал существующее подключение.
