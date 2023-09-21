@@ -9,7 +9,8 @@ public class PlayerControle : MonoBehaviour
     [SerializeField] private Transform feetPos;
     [SerializeField] private LayerMask whatIsGround;
     [SerializeField] private Animator animator;
-    [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private Transform Body;
+
 
 
     [SerializeField] private float moveSpeed = 5.0f; // Параметр для визначення швидкості руху персонажа
@@ -41,8 +42,17 @@ public class PlayerControle : MonoBehaviour
         rb.velocity = new Vector2(horizontalInput * moveSpeed, rb.velocity.y);
 
         if ((horizontalInput * moveSpeed) < 0)
-            spriteRenderer.flipX = true;
-        else spriteRenderer.flipX = false;
+        {
+            Vector3 newScale = Body.transform.localScale;
+            newScale.x = -1;
+            Body.transform.localScale = newScale;
+        }
+        else if((horizontalInput * moveSpeed) > 0) {
+
+            Vector3 newScale = Body.transform.localScale;
+            newScale.x = 1;
+            Body.transform.localScale = newScale;
+        }
 
         animator.SetFloat("Horizontal Move", Mathf.Abs(horizontalInput * moveSpeed));
         // Перевіряємо, чи персонаж на землі (ваш код може відрізнятися)
